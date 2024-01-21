@@ -21,9 +21,9 @@ function App() {
     const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
     setAccount(accounts[0])
     // Get provider from Metamask
-    const provider = new ethers.BrowserProvider(window.ethereum)
 
     
+
     window.ethereum.on('chainChanged', (chainId) => {
       window.location.reload();
     })
