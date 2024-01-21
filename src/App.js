@@ -7,7 +7,7 @@ import Mirage from './mirage';
 import Marco from './marco';
 import Gallery from './Gallery'; 
 import Mint from './mint';
-const ethers = require("ethers");
+
 
 
 
