@@ -54,7 +54,6 @@
   "main": "index.js",
   "devDependencies": {
     "@chakra-ui/react": "^2.8.2",
-    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
     "dotenv": "^16.3.1",
     "gh-pages": "^6.1.0",
     "hardhat": "^2.19.0"
