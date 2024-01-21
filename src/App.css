@@ -170,7 +170,7 @@ height: 430px;
   left: 70rem;
   right: auto;
   top: auto;
-  bottom: 2rem;
+  bottom: 1rem;
   width:fit-content;
   }
   
@@ -180,16 +180,16 @@ height: 430px;
   border-width: 3px;
   filter: drop-shadow(10px 10px 0.5rem black);
   border-radius: 8px;
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   }
   
   .marco2{
     position: relative;
     left: 70rem;
     right: auto;
-    top: auto;
-    bottom: 44vh;
+    top: 20%;
+    bottom: 36.5vh;
     width:fit-content;
   }
   
@@ -199,8 +199,8 @@ height: 430px;
   border-width: 3px;
   filter: drop-shadow(10px 10px 0.5rem black);
   border-radius: 8px;
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   }
   
   .marco3{
@@ -208,7 +208,7 @@ height: 430px;
     left: 70rem;
     right: auto;
     top: auto;
-    bottom: 20vh;
+    bottom: 13vh;
     width:fit-content;
   }
   
@@ -218,8 +218,8 @@ height: 430px;
   border-color: floralwhite;
   filter: drop-shadow(10px 10px 0.5rem black);
   border-radius: 8px;
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   }
   
   
@@ -228,7 +228,7 @@ height: 430px;
   left: 31.5rem;
   right: auto;
   top: auto;
-  bottom: 73vh;
+  bottom: 60vh;
   width:fit-content;
   
   }
