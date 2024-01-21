@@ -15,8 +15,6 @@ const ethers = require("ethers");
 function App() {
   const [loading, setLoading] = useState(true)
   const [account, setAccount] = useState(null)
-  // eslint-disable-next-line no-unused-vars
-  c
   // const [accounts, setAccounts] = useState([])
   // MetaMask Login/Connect
   const web3Handler = async () => {
