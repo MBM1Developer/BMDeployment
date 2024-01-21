@@ -4,13 +4,12 @@ import marco3 from "./assets_3/639.png";
 import marco4 from "./assets_3/471.png"; 
 import {motion} from 'framer-motion'; 
 
-const Description =  "Marco"
+
 
 export default function Marco() {
     return (
         <div className="About">
-            <h1 className="Marco_Title"></h1>
-            <h2 className="about_title"></h2>
+          
                 <p className="marco_description">
                 A self-taught digital artist, Marco embarked on his creative journey in his teens, igniting a passion that has since become the cornerstone of his career. From Europe, Marco is committed to crafting visual marvels that transcend boundaries, captivating audiences across the globe.
 

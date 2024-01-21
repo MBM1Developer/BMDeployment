@@ -8,14 +8,14 @@ import image5 from "./assets_4/mint5.png";
 import "./App.css"
 
 import Web3 from 'web3'; // Import Web3 library
-import { BigNumber} from "@ethersproject/bignumber";
+
 const contractABI = require("./Mirage.json")
-const ethers = require("ethers");
+
 const contractAddress = '0xe33ee637f63c604f74309d5242a0b6536d88ee5d';
-const web3 = new Web3('https://etherscan.io');
+
 
 const Mint = () => {
-    const [mintAmount, setMintAmount] = useState(1);
+
     const [tokenID, setTokenID] = useState(0);
     const [web3, setWeb3] = useState(null);
 

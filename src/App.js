@@ -13,7 +13,7 @@ const ethers = require("ethers");
 
 
 function App() {
-  const [loading, setLoading] = useState(true)
+
   const [account, setAccount] = useState(null)
   // const [accounts, setAccounts] = useState([])
   // MetaMask Login/Connect
@@ -22,9 +22,8 @@ function App() {
     setAccount(accounts[0])
     // Get provider from Metamask
     const provider = new ethers.BrowserProvider(window.ethereum)
-    // Set signer
-    const signer = provider.getSigner()
 
+    
     window.ethereum.on('chainChanged', (chainId) => {
       window.location.reload();
     })

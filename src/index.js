@@ -8,6 +8,7 @@ import './App.css';
 import { HeroImage } from './HeroImage';
 import Gallery  from './Gallery.js';
 
+// eslint-disable-next-line no-unused-vars
 class galimgx extends Component {
   constructor() {
     super();
@@ -25,7 +26,7 @@ class galimgx extends Component {
     );
   }
 }
-
+// eslint-disable-next-line no-unused-vars
 render(<galimgx />, document.getElementById('root'));
 
 

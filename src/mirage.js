@@ -1,16 +1,15 @@
 import bright_light from "./assets_2/612.png"; 
 import paint_autumn from "./assets_2/687.png"; 
-import swirl_colour from "./assets_2/712.png"; 
+
 import swirl_main from "./assets_2/754.png";
 import {motion} from 'framer-motion'; 
 
-const Description =  "MIRAGE"
+
 
 export default function Mirage() {
     return (
         <div className="About">
-            <h1 className="Main_Title"></h1>
-            <h2 className="about_title"></h2>
+            
                 <p className="about_description">
                 A meticulously handcrafted collection of 1054 pieces by Marco. Each piece is thoughtfully curated, offering a unique and visually captivating journey through the intricate tapestry of life.
 
